@@ -60,7 +60,7 @@ main {
 }
 
 .projects-slider {
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .project-slide-description {
@@ -79,13 +79,15 @@ main {
   object-fit: cover;
 }
 
-.project-slide-description h3,
 .project-slide-title {
   margin-top: 1rem;
   color: var(--white);
   padding: 0 1rem;
   font-size: 28px;
   font-family: var(--font-family-1);
+  display: flex;
+  gap: 3rem;
+  align-items: center;
 }
 
 .projects-grid {
@@ -112,6 +114,9 @@ main {
   margin-top: 10px;
   font-family: var(--font-family-1);
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .project-item img {
@@ -130,6 +135,7 @@ main {
 
   .projects-slider {
     width: 100%;
+    margin-bottom: 3rem;
   }
 
   .project-slide-title {

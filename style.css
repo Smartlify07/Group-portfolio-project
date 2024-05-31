@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple: #a52bd8;
+  --light-purple: #d931ab;
+  --dark-orange: #f26530;
+  --light-orange: #f1a81d;
+  --black: #000000;
+  --white: #fff;
+  --font-family-1: "Montserrat", sans-serif;
+  --font-family-2: "Goldman", sans-serif;
+}
+
+body {
+  font-family: "Goldman", sans-serif;
+  background-color: #000000;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  min-height: 100vh;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 6rem;
+}
+
+.title-description {
+  margin-top: 1.4rem;
+}
+
+.title-description h1 {
+  font-size: 45px;
+
+  background: linear-gradient(
+    180deg,
+    #a52bd8 0%,
+    #d931ab 30%,
+    #f26530 65%,
+    #f1a81d 100%
+  );
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(148, 40, 40, 0.2);
+}
+
+.title-description p {
+  color: var(--white);
+  font-size: 24px;
+  text-align: center;
+}
+
+.projects-slider {
+  margin-bottom: 3rem;
+}
+
+.project-slide-description {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.4rem 6rem;
+  margin-top: 2rem;
+}
+
+.project-slide-description img {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.project-slide-description h3,
+.project-slide-title {
+  margin-top: 1rem;
+  color: var(--white);
+  padding: 0 1rem;
+  font-size: 28px;
+  font-family: var(--font-family-1);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.project-item {
+  width: 250px;
+  border-radius: 10px;
+  padding-bottom: 1.5rem;
+}
+
+.project-item img {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.project-item p {
+  color: var(--white);
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: var(--font-family-1);
+  font-weight: 600;
+}
+
+.project-item img {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+@media screen and (width < 768px) {
+  main {
+    padding: 2rem;
+  }
+
+  .title-description {
+    font-size: 38px;
+  }
+
+  .projects-slider {
+    width: 100%;
+  }
+
+  .project-slide-title {
+    font-size: 24px;
+  }
+
+  .project-slide-description img {
+    width: 300px;
+    object-fit: contain;
+  }
+
+  .project-slide-description {
+    width: 100%;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project-item {
+    width: 300px;
+  }
+
+  .project-item p {
+    font-size: 18px;
+  }
+}

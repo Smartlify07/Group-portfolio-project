@@ -6,6 +6,8 @@
   font-family: "Goldman", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: white;
+  text-decoration: none;
 }
 
 body {
@@ -13,70 +15,62 @@ body {
   background: #161616;
   color: #fff;
 }
-.section1 {
-  background-image: url(./images/Group-45.png);
+/* section 1 */
+
+
+.section1{
+  background-image: url(images/Group-45.png) ;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.navSection {
+.navSection{
   display: flex;
   padding: 2vh 10vh;
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
-.nav-card {
+.nav-card{
   display: flex;
   list-style: none;
   gap: 2vh;
 }
-.nav-card a {
+.nav-card a{
   color: white;
   text-decoration: none;
 }
-.content {
-  padding: 1vh 2vh;
-  background-color: transparent;
-  border: 2px solid white;
+.content{
+  padding: 1vh  2vh;
+  background-color:  transparent;
+  border: 2px solid  white;
   border-radius: 5px;
   font-size: 16px;
+
 }
-.content:active {
-  padding: 1.3vh 2.3vh;
+.content:active{
+  padding: 1.3vh  2.3vh;
   border-radius: 5px;
-  background: #a52bd8;
-  background: linear-gradient(
-    180deg,
-    #a52bd8 0%,
-    #d931ab 30%,
-    #f26530 65%,
-    #f1a81d 100%
-  );
+  background: #A52BD8;
+  background: linear-gradient(180deg, #A52BD8 0%, #D931AB 30%, #F26530 65%, #F1A81D 100%)  ;
   border: none;
   font-size: 16px;
 
   /* transition: 2s; */
 }
-.content1,
-.content2 {
-  padding: 1.3vh 2.3vh;
+.content1,.content2{
+  padding: 1.3vh  2.3vh;
   border-radius: 5px;
-  background: #a52bd8;
-  background: linear-gradient(
-    180deg,
-    #a52bd8 0%,
-    #d931ab 30%,
-    #f26530 65%,
-    #f1a81d 100%
-  );
+  background: #A52BD8;
+  background: linear-gradient(180deg, #A52BD8 0%, #D931AB 30%, #F26530 65%, #F1A81D 100%)  ;
   border: none;
   font-size: 16px;
+
 }
 
-.header-card {
+.header-card{
   display: flex;
   align-content: center;
   justify-content: center;
@@ -85,11 +79,11 @@ body {
   margin-top: 10vh;
   padding: 0vh 8vh;
 }
-.header-card div img {
+.header-card div img{
   width: 25vw;
 }
 
-.header-text {
+.header-text{
   text-align: left;
   padding: 0vh 8vh;
   align-content: center;
@@ -97,48 +91,44 @@ body {
   text-align: left;
 }
 
-.header-text h1 {
+.header-text h1{
   font-size: 2.5rem;
-  font-family: "Goldman";
+  font-family: 'Goldman';
   font-weight: 50;
   margin-bottom: 3vh;
 }
 .header-text p {
-  font-size: clamp(1rem, 2.1vw, 2.5rem);
+  font-size:clamp(1rem , 2.1vw , 2.5rem);
   /* width: 90%; */
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   line-height: 1.5;
 }
-.btn-card {
+.btn-card{
   display: flex;
   justify-content: space-evenly;
   margin-top: 3vh;
-  font-family: "Goldman";
+  font-family: 'Goldman';
+
 }
 
-.header-btn1 {
-  padding: 2.3vh 4.3vh;
+.header-btn1{
+  padding: 2.3vh  4.3vh;
   border-radius: 5px;
-  background: #a52bd8;
-  background: linear-gradient(
-    180deg,
-    #a52bd8 0%,
-    #d931ab 30%,
-    #f26530 65%,
-    #f1a81d 100%
-  );
+  background: #A52BD8;
+  background: linear-gradient(180deg, #A52BD8 0%, #D931AB 30%, #F26530 65%, #F1A81D 100%)  ;
   border: none;
   font-size: 20px;
-  font-family: "Goldman";
+  font-family: 'Goldman';
 }
 
-.header-btn2 {
-  padding: 2vh 4vh;
-  background-color: transparent;
-  border: 2px solid white;
+.header-btn2{
+  padding: 2vh  4vh;
+  background-color:  transparent;
+  border: 2px solid  white;
   border-radius: 5px;
   font-size: 20px;
-  font-family: "Goldman";
+  font-family: 'Goldman';
+
 }
 
 .main-container {

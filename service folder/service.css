@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  min-height: 100vh;
+  background: #161616;
+  color: #fff;
+}
+.section1 {
+  background-image: url(./images/Group-45.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navSection {
+  display: flex;
+  padding: 2vh 10vh;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  font-family: "Montserrat";
+}
+.nav-card {
+  display: flex;
+  list-style: none;
+  gap: 2vh;
+}
+.nav-card a {
+  color: white;
+  text-decoration: none;
+}
+.content {
+  padding: 1vh 2vh;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.content:active {
+  padding: 1.3vh 2.3vh;
+  border-radius: 5px;
+  background: #a52bd8;
+  background: linear-gradient(
+    180deg,
+    #a52bd8 0%,
+    #d931ab 30%,
+    #f26530 65%,
+    #f1a81d 100%
+  );
+  border: none;
+  font-size: 16px;
+
+  /* transition: 2s; */
+}
+.content1,
+.content2 {
+  padding: 1.3vh 2.3vh;
+  border-radius: 5px;
+  background: #a52bd8;
+  background: linear-gradient(
+    180deg,
+    #a52bd8 0%,
+    #d931ab 30%,
+    #f26530 65%,
+    #f1a81d 100%
+  );
+  border: none;
+  font-size: 16px;
+}
+
+.header-card {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 10vh;
+  padding: 0vh 8vh;
+}
+.header-card div img {
+  width: 25vw;
+}
+
+.header-text {
+  text-align: left;
+  padding: 0vh 8vh;
+  align-content: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.header-text h1 {
+  font-size: 2.5rem;
+  font-family: "Goldman";
+  font-weight: 50;
+  margin-bottom: 3vh;
+}
+.header-text p {
+  font-size: clamp(1rem, 2.1vw, 2.5rem);
+  /* width: 90%; */
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+.btn-card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3vh;
+  font-family: "Goldman";
+}
+
+.header-btn1 {
+  padding: 2.3vh 4.3vh;
+  border-radius: 5px;
+  background: #a52bd8;
+  background: linear-gradient(
+    180deg,
+    #a52bd8 0%,
+    #d931ab 30%,
+    #f26530 65%,
+    #f1a81d 100%
+  );
+  border: none;
+  font-size: 20px;
+  font-family: "Goldman";
+}
+
+.header-btn2 {
+  padding: 2vh 4vh;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Goldman";
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container .text {
+  margin: 40px 0;
+}
+
+.text h2 {
+  text-align: center;
+  font-size: 3em;
+  background: linear-gradient(
+    90deg,
+    #a52bd8 0%,
+    #d931ab 30%,
+    #f26530 65%,
+    #f1a81d 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text p {
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: thin;
+}
+
+.main-container .main-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100%;
+}
+
+.main-container .main-hero img {
+  width: 14vw;
+  margin-right: 40px;
+}
+
+.main-hero .text-2 {
+  font-size: 1.5rem;
+}
+
+.main-hero .text-2 .para {
+  border: 2px solid #ffffff;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+  background: #000000;
+  height: 100%;
+}
+
+.footer-container {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.footer-container .footer-hero {
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px;
+  font-size: 25px;
+}
+
+.hero-2 {
+  padding: 30px;
+  margin-top: 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero-2 .contain img {
+  width: 60px;
+}
+
+.hero-2 .contain {
+  display: flex;
+  align-items: center;
+}
+
+.hero-2 .contain p {
+  width: 50%;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: thin;
+}
+
+.hero-2 .icon img {
+  padding: 10px;
+}
+
+.terms {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 40px;
+}
+
+.terms .terms-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.terms p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: thin;
+  margin: 30px;
+}
+
+.terms .terms-2 p {
+  margin: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: thin;
+}

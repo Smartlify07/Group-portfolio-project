@@ -8,7 +8,124 @@
 body{
     background-color: #000101;
     color: white;
+    font-family: 'Montserrat';
 }
+*{
+    color: white;
+    text-decoration: none;
+}
+.section1{
+    background-image: url(images/Group-45.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .navSection{
+    display: flex;
+    padding: 2vh 10vh;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+  }
+  .nav-card{
+    display: flex;
+    list-style: none;
+    gap: 2vh;
+  }
+  .nav-card a{
+    color: white;
+    text-decoration: none;
+  }
+  .content{
+    padding: 1vh  2vh;
+    background-color:  transparent;
+    border: 2px solid  white;
+    border-radius: 5px;
+    font-size: 16px;
+  
+  }
+  .content:active{
+    padding: 1.3vh  2.3vh;
+    border-radius: 5px;
+    background: #A52BD8;
+    background: linear-gradient(180deg, #A52BD8 0%, #D931AB 30%, #F26530 65%, #F1A81D 100%)  ;
+    border: none;
+    font-size: 16px;
+  
+    /* transition: 2s; */
+  }
+  .content1,.content2{
+    padding: 1.3vh  2.3vh;
+    border-radius: 5px;
+    background: #A52BD8;
+    background: linear-gradient(180deg, #A52BD8 0%, #D931AB 30%, #F26530 65%, #F1A81D 100%)  ;
+    border: none;
+    font-size: 16px;
+  
+  }
+  
+  .header-card{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10vh;
+    padding: 0vh 8vh;
+  }
+  .header-card div img{
+    width: 25vw;
+  }
+  
+  .header-text{
+    text-align: left;
+    padding: 0vh 8vh;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .header-text h1{
+    font-size: 2.5rem;
+    font-family: 'Goldman';
+    font-weight: 50;
+    margin-bottom: 3vh;
+  }
+  .header-text p {
+    font-size:clamp(1rem , 2.1vw , 2.5rem);
+    /* width: 90%; */
+    font-family: 'Montserrat';
+    line-height: 1.5;
+  }
+  .btn-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+    font-family: 'Goldman';
+  
+  }
+  
+  .header-btn1{
+    padding: 2.3vh  4.3vh;
+    border-radius: 5px;
+    background: #A52BD8;
+    background: linear-gradient(180deg, #A52BD8 0%, #D931AB 30%, #F26530 65%, #F1A81D 100%)  ;
+    border: none;
+    font-size: 20px;
+    font-family: 'Goldman';
+  }
+  
+  .header-btn2{
+    padding: 2vh  4vh;
+    background-color:  transparent;
+    border: 2px solid  white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Goldman';
+  
+  }
 .graphics{
     width: 75vw;
     height: 40vh;

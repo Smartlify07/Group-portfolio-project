@@ -21,6 +21,10 @@ body {
   background-color: #000000;
 }
 
+textarea {
+  resize: none;
+}
+
 img {
   width: 100%;
 }
@@ -124,6 +128,82 @@ main {
   background-color: transparent;
 }
 
+/* Contact page */
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 3rem 0;
+}
+
+.contact-container h1 {
+  font-size: 45px;
+
+  background: linear-gradient(
+    180deg,
+    #a52bd8 0%,
+    #d931ab 30%,
+    #f26530 65%,
+    #f1a81d 100%
+  );
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(148, 40, 40, 0.2);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+.contact-form .input-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input:focus {
+  border: none;
+  outline: none;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  font-family: var(--font-family-1);
+}
+
+.contact-form label {
+  color: var(--white);
+  font-family: var(--font-family-1);
+}
+
+.contact-form button {
+  background: linear-gradient(
+    180deg,
+    #a52bd8 0%,
+    #d931ab 30%,
+    #f26530 65%,
+    #f1a81d 100%
+  );
+  padding: 1rem 1.2rem;
+  border: none;
+  font-size: 1.2rem;
+  font-family: var(--font-family-1);
+  font-weight: 700;
+  color: var(--white);
+  align-self: flex-end;
+  border-radius: 5px;
+}
+
 @media screen and (width < 768px) {
   main {
     padding: 2rem;
@@ -161,5 +241,17 @@ main {
 
   .project-item p {
     font-size: 18px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-container h1 {
+    font-size: 28px;
+  }
+
+  .contact-form button {
+    width: 100%;
   }
 }

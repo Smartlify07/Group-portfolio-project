@@ -6,6 +6,7 @@
   font-family: "Goldman", sans-serif;
   font-weight: 400;
   font-style: normal;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -23,6 +24,11 @@ body {
 }
 
 .navSection {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: transparent;
   display: flex;
   padding: 2vh 10vh;
   align-items: center;
@@ -132,7 +138,12 @@ body {
   border: none;
   font-size: 20px;
   font-family: "Goldman";
+  
 }
+.header-btn1 a{
+  color: #ffffff;
+}
+
 
 .header-btn2 {
   padding: 2vh 4vh;
@@ -141,6 +152,11 @@ body {
   border-radius: 5px;
   font-size: 20px;
   font-family: "Goldman";
+ 
+}
+
+.header-btn2 a{
+  color: #ffffff;
 }
 
 /* service */
@@ -181,6 +197,7 @@ body {
   align-items: center;
   justify-content: center;
   max-height: 100%;
+  cursor: pointer;
 }
 
 .main-container .main-hero img {
@@ -271,4 +288,10 @@ footer {
   margin: 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: thin;
+}
+
+/* responsive */
+
+@media screen and (max-width < 768px){
+
 }
